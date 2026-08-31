@@ -1,0 +1,10 @@
+# 一切二进制产物走 Release 附件，不进 git
+*.AppImage
+*.deb
+*.exe
+*.dmg
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar.gz
