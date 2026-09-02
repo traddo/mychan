@@ -1,0 +1,24 @@
+{
+  "version": "0.1.5",
+  "notes": "启动时会检查有没有新版本，有新版在状态栏提示。本版装上后还不能自动升级，需下一版发布后才能一键升级。",
+  "pub_date": "2026-09-02T10:21:59Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJGZUVDQVorcnBMeExHK0dlQmZ5dWNGeU55dEdYbm83VzcyNVR6UGJRa3VGeGVBRnFMUnhMR001UGF6UDR3eC9Sa0pNZ2VITWhIYVNsZHpwUnFjMHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzQ0MTgyCWZpbGU657yg5p6QXzAuMS41X2FhcmNoNjQuZG1nCldCL2gzYndIajhDNCt2TkxTbEVxQ1h3bkxqSFBOKzJWMUx3L0xyQWxXcUorZTNLYUtpTmNtZ1pLT1JneC8yRG56SzJGTDUxcTl3cEFrTU5MMlN1dEJRPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.5/%E7%BC%A0%E6%9E%90_0.1.5_aarch64.dmg"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZMakhGbjJLdXhhMXdVd3JPMTF4VDRKMU1xNEdBNCtXK1hvZ0FwY29WS1ZFOUtrc295SzB4MTlHY0FUTWZWTzVxSXNNYjkzdVc5WnMzUU1zMGFoOGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzQ0MTgzCWZpbGU657yg5p6QXzAuMS41X3g2NC5kbWcKc1ZqTnJDY09NbCtEZUNqMXBhSmtBN3dkK3dxM2l1UG5ER3czRnJVUEVZbE1oNnUxa1JDclRaRVI0ZHN6dHpkOVY0b2xjMDY1VG1HM0lQNWlrZmh4Q3c9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.5/%E7%BC%A0%E6%9E%90_0.1.5_x64.dmg"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmREcXVqNnlnSEl1NDZhUS9vc1QvUXcvbC9iUTRDR2xiTEpoZ2gyRzZ0ZkZ4dWlWQUxKTGY2QldUVlIzdjdHZDAzb0NicnRIYW51VnV4cEl6ZHEzb2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzM5NjE1CWZpbGU657yg5p6QXzAuMS41X2FtZDY0LkFwcEltYWdlCnlUejFmTHFDZUg3NDlvMDdvRzR3Q2ZFT1luZmdjQXZldVlCeWVaUUZpNWRzTlp3K1MrQjErL1NqTGpBKzJ6ZVpGTGZPNDlGUi9DZ1FUZjJSRHpLd0JnPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.5/%E7%BC%A0%E6%9E%90_0.1.5_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmI3NlU3WkZaeThJSVdzQzZBTVp1bG9hYVh2aXpOdDdBUDd5WjNlZTk0TmJaaVdnMFp5YTVDUlBnRUtxWlM2VDJnWUprZjY1dnlKUXQ4RWVoSUwwUkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzQ0NTAzCWZpbGU657yg5p6QXzAuMS41X3g2NC1zZXR1cC5leGUKZWY1dFJRRDcySHk0NWRFeWN0WFIrbUpnOTR6ZmNJUmMvUTFiTjhMc3luR1UxNk9EcmttZnEvUnZHYUw1VHEwUm1weHE2WEZJTWZuUy9FUkVLTFBGREE9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.5/%E7%BC%A0%E6%9E%90_0.1.5_x64-setup.exe"
+    }
+  },
+  "mandatory": false
+}
