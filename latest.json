@@ -1,23 +1,23 @@
 {
   "version": "0.1.6",
   "notes": "图表操作大幅改进",
-  "pub_date": "2026-09-03T03:44:54Z",
+  "pub_date": "2026-09-03T05:01:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZ6QXYwT2U0TGR1bVhJU29vbk9LeTUyRTdnTXNZUHB6TlVLdTNEc2dySVBhVUMzQUticEtobE11cXhKNEw4aHlOZDhJQUtKd3EwbUxpemIydVBDTVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDA3MDkzCWZpbGU657yg5p6QXzAuMS42X2FhcmNoNjQuZG1nClNHYlRJaExobytJZDloN1pPNUpWdGFHVjAweUd0NGJVT3ZaK1psUEV5NExIK3dleGJnNnQ2ZmJhVmxkbHVnMXpFcENFajB6dTd5OTBGZzRSUDVxc0F3PT0K",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/%E7%BC%A0%E6%9E%90_0.1.6_aarch64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblpvMG5ZNGwxdzVRSHJqT0R5NXFyNW1aRmJ2YmI1Y3hsTDg4UEp2TnJyU0VUYWdJZUhGOTlXUHEvSlErRjF5bFR5c1pGQUZOTGhGRlpPd1diVE9HOVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDExNjY5CWZpbGU6Y2hhbnhpXzAuMS42X2FhcmNoNjQuZG1nCk1MZE9sMjJzeXI1WTM2MWFVcG9LM2VYV3dqaG5vQ1YyNnU5YkJQUjhkRC93V1FKUUwrblJrSWxBSGplclJMMkR2OVdZYW0rNUFQeERtTmNkd1hZQUR3PT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/chanxi_0.1.6_aarch64.dmg"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmQ0QkxxdFVvby9Rd092akNXdzRXM0VRQm5OK1ZUNzdrYTFFRWt2eVlEWC9kdFVyckFMaE04bWlxRTg1SjNqdDhkZGJjbjVNakdmMk92N1VXVEIydGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDA3MDkzCWZpbGU657yg5p6QXzAuMS42X3g2NC5kbWcKcCtocDZ5UFZ2cTQ1d1dkN0QwOUltdDBDcUZPM00zVTBScXJhcXV4eFZ5WmRUdXFBSzBvTDIyZ1d3M0lKaVdRN0hWcGREbjVsdjZWckROVDRPR3QwQ3c9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/%E7%BC%A0%E6%9E%90_0.1.6_x64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblQwWXQ0YlBieng4MFVvQ2xGQU1BY3RtbWRPU2NLZlpCNlFYV0RwRjRYbUw2UW5EVnFEbldBblFodm02MTRHZ3FxZDlTaGNHenZSeUpNM3RKdVo2MGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDExNjY5CWZpbGU6Y2hhbnhpXzAuMS42X3g2NC5kbWcKVlZnL1BXbG1KWS9kWmZGaTBpTE9BaGYwK1JkZGdyL1J0K3hDcUFMTHI5dzJIN1BoRTljaEpKZTZuSjMzWU5mNHlBZnJLNSt1WURDTk1wL3VTY0pUREE9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/chanxi_0.1.6_x64.dmg"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJkZzZkMUZsWDBPZ3graHhac3hyMC9RZms1Q1ZFZndmUEhrYUpVVnl0azZlRTFUZTlsYXVyMVV0UE5IU0pvcmJnUDRtVHBLUEdnRUl0V0d0bVkwK2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDA2NDkyCWZpbGU657yg5p6QXzAuMS42X2FtZDY0LkFwcEltYWdlCldJZmF1UmY4eUJWYi9zYVZjQmthdk50dXBQZzNWQXpmNG1MNkozNVBtcDBVUHNoWGNRVi8rclcwaUdHSGJBNE5GTzh0c2FBMHVFTzhKM1ZnL0t2N0FRPT0K",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/%E7%BC%A0%E6%9E%90_0.1.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZyNjhvZkl1SWZyOXFPR3FCRUdCUDg5UFpabmo5MldsRWk3OE5GWjZ3TTdKZklGandQbmVpUjNOZlBOcExGYzAwR3U4UHVuZkRySGlZekNjZGxsTnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDExNTc4CWZpbGU657yg5p6QXzAuMS42X2FtZDY0LkFwcEltYWdlCmRWTjFXOGhHSkxJZk84V2YvUVZIK3B3aG5ScmdEYi84NnpVakUwVHJQd3RBTG9PM3RSVk9MS2JyM3RkNlEvWVV3d2ZZaTRoMVRhNkE5NytiWnZKUkNBPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/chanxi_0.1.6_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblE4R2NMRi9jQTFJNm1wNGp1T05WNFlVUGlpWlYyeEI0VVZ1V2tUMGdiVjFnbm1GZmFWSXd0blMxN3RnMU9iWXlIMG5GbjZmekRyYjV3UGV6L3BvMVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDA3MDkzCWZpbGU657yg5p6QXzAuMS42X3g2NC1zZXR1cC5leGUKZVM4N3RZRDllZGNDTC9jTGVWajBKOERPVFhmWnNhQ0puWitsdy9kbmcrM2hCQ09Md3p4a0JUL2R5VngzZVl2VExnZE9wd1pVbmlMN1kxdnoxemNWREE9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/%E7%BC%A0%E6%9E%90_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblFFYWc1M2cvVlhrL0dzWWtId2Z2bU5wZDk5RjA5S1M1TktTUjdVQndZdjdVS2t5OTdOY1F2ampkS2JUY3VoWS9EREVkbUFxWktQN2U1eld5S2E0d2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDExNjY5CWZpbGU6Y2hhbnhpXzAuMS42X3g2NC1zZXR1cC5leGUKK0NPNEoyZVcyVHZ2QmpOQWdoWjRFdzVHSmUrZzFkMU9uZDAyVHViU01TR2cwQVBoK3ZueHViaDlOYmlDYThrZmlPTVl0dUlhdDFzTTd3N1EwMmJNQVE9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.1.6/chanxi_0.1.6_x64-setup.exe"
     }
   },
   "mandatory": false
