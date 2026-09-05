@@ -69,3 +69,29 @@
 **trad_do@hotmail.com**
 
 每版改了什么见 [更新记录](CHANGELOG.md)。
+
+
+## latest.json 的 `plugins` 节（D-146 插件级在线更新）
+
+Tauri updater 只读 `version / notes / pub_date / platforms`；`plugins` 与 `mandatory` 是自研附加键，
+Tauri 忽略未知键，0.1.5～0.1.7 等老版本不受影响。
+
+```json
+"plugins": {
+  "chan-core": {
+    "kind": "native", "version": "0.41.2", "apiVersion": "1",
+    "platforms": {
+      "linux-x86_64":   { "url": ".../chan-core_0.41.2_linux-x86_64.zip",   "sha256": "…", "signature": "…" },
+      "windows-x86_64": { "url": ".../chan-core_0.41.2_windows-x86_64.zip", "sha256": "…", "signature": "…" },
+      "darwin-x86_64":  { … }, "darwin-aarch64": { … }
+    }
+  },
+  "<前端插件 id>": { "kind": "frontend", "version": "…", "url": "…/<id>_<ver>.zip", "sha256": "…", "signature": "…" }
+}
+```
+
+- 包名定死：`<id>_<ver>_<target>.zip`（native）/ `<id>_<ver>.zip`（frontend），随 release 附件挂在同一 tag 下；
+- `signature` 与安装包同一把 minisign 钥、同一 .sig 格式（整个 .sig 文本的 base64），由发布机 sign-artifacts.sh 产；
+- `sha256` 为 zip 的十六进制摘要；app 侧 Rust 宿主先验签再验 sha，任一不过不落盘；
+- `apiVersion` 与本机已装插件的不等 ⇒ 拒装并在状态栏说明，不自动降级；
+- 生成脚本：chan-desktop `scripts/release/make-latest-json.sh`（从 `release-out/<ver>/plugins/` 读）。
