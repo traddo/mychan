@@ -18,16 +18,18 @@
 到 [Releases](../../releases) 取最新版。**装上就能用**，分解引擎随包附带，
 不用另外配置任何东西。
 
-> 附件里除了下面这几个安装包，还有一堆 `.zip` 和 `.sig`——那是应用自动更新用的，
-> **不用管**，按下表下载对应你系统的那一个即可。
+> 点下表里的链接直接下载。（[Releases](../../releases) 页面里那一堆 `.zip` 和 `.sig`
+> 是应用自动更新用的，不用管。）
 
-| 你的系统 | 下载哪个 |
+| 你的系统 | 点击下载（v0.2.0） |
 |---|---|
-| Windows 10 及以上 | `chanxi_x.y.z_x64-setup.exe` |
-| macOS（2020 年后的 Mac，M1/M2/M3…） | `chanxi_x.y.z_aarch64.dmg` |
-| macOS（更早的 Intel Mac） | `chanxi_x.y.z_x64.dmg` |
-| Linux（Ubuntu / Debian 等） | `chanxi_x.y.z_amd64.deb` |
-| Linux（其他发行版，免安装） | `chanxi_x.y.z_amd64.AppImage` |
+| Windows 10 及以上 | [chanxi_0.2.0_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.0/chanxi_0.2.0_x64-setup.exe) |
+| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.0_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.0/chanxi_0.2.0_aarch64.dmg) |
+| macOS（更早的 Intel Mac） | [chanxi_0.2.0_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.0/chanxi_0.2.0_x64.dmg) |
+| Linux（Ubuntu / Debian 等） | [chanxi_0.2.0_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.deb) |
+| Linux（其他发行版，免安装） | [chanxi_0.2.0_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.AppImage) |
+
+国内用左边的链接（Gitee）更快；打不开时用右边的 GitHub 镜像。
 
 **不确定自己是哪种 Mac？** 点左上角苹果图标 →「关于本机」，
 写着「芯片 Apple M…」选 aarch64，写着「处理器 Intel」选 x64。
@@ -90,34 +92,10 @@
 每版改了什么见 [更新记录](CHANGELOG.md)。
 
 
-## latest.json 的 `plugins` 节（D-146 插件级在线更新）
+## 更新方式说明（0.2.0 起）
 
-Tauri updater 只读 `version / notes / pub_date / platforms`；`plugins` 与 `mandatory` 是自研附加键，
-Tauri 忽略未知键，0.1.5～0.1.7 等老版本不受影响。
-
-```json
-"plugins": {
-  "chan-core": {
-    "kind": "native", "version": "0.41.2", "apiVersion": "1",
-    "platforms": {
-      "linux-x86_64":   { "url": ".../chan-core_0.41.2_linux-x86_64.zip",   "sha256": "…", "signature": "…" },
-      "windows-x86_64": { "url": ".../chan-core_0.41.2_windows-x86_64.zip", "sha256": "…", "signature": "…" },
-      "darwin-x86_64":  { … }, "darwin-aarch64": { … }
-    }
-  },
-  "<前端插件 id>": { "kind": "frontend", "version": "…", "url": "…/<id>_<ver>.zip", "sha256": "…", "signature": "…" }
-}
-```
-
-- 包名定死：`<id>_<ver>_<target>.zip`（native）/ `<id>_<ver>.zip`（frontend），随 release 附件挂在同一 tag 下；
-- `signature` 与安装包同一把 minisign 钥、同一 .sig 格式（整个 .sig 文本的 base64），由发布机 sign-artifacts.sh 产；
-- `sha256` 为 zip 的十六进制摘要；app 侧 Rust 宿主先验签再验 sha，任一不过不落盘；
-- `apiVersion` 与本机已装插件的不等 ⇒ 拒装并在状态栏说明，不自动降级；
-- 生成脚本：chan-desktop `scripts/release/make-latest-json.sh`（从 `release-out/<ver>/plugins/` 读）。
-
-## 更新方式说明（0.1.8 起）
-
-- 0.1.7 及更早版本收到「发现新版本 v0.1.8」时仍需下载安装一次——这是**最后一次**整机安装；
-- 装上 0.1.8 之后，内核（chan-core）与各功能模块（片段库、笔记、练习、导入、分享、图表运行时）都在线自动更新：
-  应用启动后或点「检查更新」时自行下载、验签、换上新版本，**不重装、不重启**，状态栏一句提示；
-- 只有壳本身（极少变动）才需要整机安装，届时清单里的 `version` 会变，应用会明确提示需重新安装。
+- 用 0.1.7 或更早版本的，收到「发现新版本 v0.2.0」时还需要下载安装一次——
+  这是**最后一次**整机安装；
+- 装上 0.2.0 之后，分解引擎和各个功能模块都会自己在线更新：应用启动后或你点
+  「检查更新」时自行下载、校验、换上新版，**不用重装、也不用重启**，状态栏给一句提示；
+- 只有应用本身有大改动时才需要重新安装，那种情况应用会明确告诉你。
