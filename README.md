@@ -18,13 +18,16 @@
 到 [Releases](../../releases) 取最新版。**装上就能用**，分解引擎随包附带，
 不用另外配置任何东西。
 
+> 附件里除了下面这几个安装包，还有一堆 `.zip` 和 `.sig`——那是应用自动更新用的，
+> **不用管**，按下表下载对应你系统的那一个即可。
+
 | 你的系统 | 下载哪个 |
 |---|---|
-| Windows 10 及以上 | `缠析_x.y.z_x64-setup.exe` |
-| macOS（2020 年后的 Mac，M1/M2/M3…） | `缠析_x.y.z_aarch64.dmg` |
-| macOS（更早的 Intel Mac） | `缠析_x.y.z_x64.dmg` |
-| Linux（Ubuntu / Debian 等） | `缠析_x.y.z_amd64.deb` |
-| Linux（其他发行版，免安装） | `缠析_x.y.z_amd64.AppImage` |
+| Windows 10 及以上 | `chanxi_x.y.z_x64-setup.exe` |
+| macOS（2020 年后的 Mac，M1/M2/M3…） | `chanxi_x.y.z_aarch64.dmg` |
+| macOS（更早的 Intel Mac） | `chanxi_x.y.z_x64.dmg` |
+| Linux（Ubuntu / Debian 等） | `chanxi_x.y.z_amd64.deb` |
+| Linux（其他发行版，免安装） | `chanxi_x.y.z_amd64.AppImage` |
 
 **不确定自己是哪种 Mac？** 点左上角苹果图标 →「关于本机」，
 写着「芯片 Apple M…」选 aarch64，写着「处理器 Intel」选 x64。
@@ -33,7 +36,7 @@
 
 - **Windows** 会提示"Windows 已保护你的电脑"——点「更多信息」→「仍要运行」。
 - **macOS** 首次需**右键点击图标 →「打开」**，直接双击会被系统拦下。
-- **Linux AppImage** 下载后需先赋予执行权限：`chmod +x 缠析_*.AppImage`
+- **Linux AppImage** 下载后需先赋予执行权限：`chmod +x chanxi_*.AppImage`
 
 > 这几步是因为安装包尚未做代码签名与公证，不是软件有问题。
 
