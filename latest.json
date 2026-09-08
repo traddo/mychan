@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "notes": "「自研」改名「复盘」，重做了数据来源设置：左栏「复盘」→ ⚙ 里按来源分页选目录，",
-  "pub_date": "2026-09-08T02:04:44Z",
+  "pub_date": "2026-09-08T02:42:41Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblZZU2paZVYzc2FOVFEwSC9tK3pZV1E1WE9VbGtYbFpxWGNPN25zL3FmSVVEZmdvRG5UYThUMDI1UFNCNzl3S0JjZFhSaEJSRm41Z3UxUnZOVCt2WEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODMyOTg5CWZpbGU6Y2hhbnhpXzAuMi4wX2FhcmNoNjQuYXBwLnRhci5negplSWhuMk53MVNBdEdBQXArSUsrVVdqWUlib2ViR01Nbm9EbFIrWGc0dy9BMzhTaGhQYkFsV1UyM2xscEpyb3J1QURGQWhIemV1QkYvK1NicnFKelNEZz09Cg==",
@@ -20,15 +20,15 @@
       "url": "https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_x64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNwQnhlSHkzZEY2UUdYV2RLT3dML0VOQmNMOUdGc3IyOEN6MDdjU2QvQjg4aGJSVWQyeWRIcnplbkY2RWVNOFZxcWpZZ3VNWjM4cis1ZGRrbmRTakFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODI3NzI5CWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LkFwcEltYWdlCnlrZWNPQ3hsbjlrTmsrVXhmajl4VllrVW1wc09EU3gzbExscnB6bTBpTlBmT0liY2hWMThPUFpJeEVCRlNKOVpzRUVSelNmYlBTNXdyeXBBbXhUaUF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblg3dHJ6dmh1M0ZwbUtNZ3ZTTXV6VWsxSGVMaEpaOEhOUEFCYUxwSytpOGlEUG52NHBsUHp6M2hPY01udXpwSDBxZlVxdUxuL1M0bE9YNmR1TnFzc3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODM1MzQyCWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LkFwcEltYWdlCkFPMnRoOXVNT2huVWFtRmtnWnRFZFJCQmxqbFNTL21lY0tiZkc3dFcrQU0yL3lYenZmQjlpSWU3OXF3YStMdTZzT2NZa2NXTWlzajJpd093T01PcUJ3PT0K",
       "url": "https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNwQnhlSHkzZEY2UUdYV2RLT3dML0VOQmNMOUdGc3IyOEN6MDdjU2QvQjg4aGJSVWQyeWRIcnplbkY2RWVNOFZxcWpZZ3VNWjM4cis1ZGRrbmRTakFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODI3NzI5CWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LkFwcEltYWdlCnlrZWNPQ3hsbjlrTmsrVXhmajl4VllrVW1wc09EU3gzbExscnB6bTBpTlBmT0liY2hWMThPUFpJeEVCRlNKOVpzRUVSelNmYlBTNXdyeXBBbXhUaUF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblg3dHJ6dmh1M0ZwbUtNZ3ZTTXV6VWsxSGVMaEpaOEhOUEFCYUxwSytpOGlEUG52NHBsUHp6M2hPY01udXpwSDBxZlVxdUxuL1M0bE9YNmR1TnFzc3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODM1MzQyCWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LkFwcEltYWdlCkFPMnRoOXVNT2huVWFtRmtnWnRFZFJCQmxqbFNTL21lY0tiZkc3dFcrQU0yL3lYenZmQjlpSWU3OXF3YStMdTZzT2NZa2NXTWlzajJpd093T01PcUJ3PT0K",
       "url": "https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblZaUXFUQVl0SjdTcjN4dTR5cWpzRVQraFhhamdtUHc5Q1NPV2t3ekE3bTJwVFFJd3hPK3E3aWp3TmN1S1h1YUJ6RTd0UmJCSTNUamlJYmlzM3ZkR3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODI3NzI5CWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LmRlYgpJN1IxUEErcldmTTZBNmF3Yi9vVG4zamE0VUt5NUlRZ2NnQXUrM3dkL3JKemRVR2FnRWw5Tkx2QkZ5bjRxeWZ3bks4SWprM1FFbDNlajdxb2lBZHVCdz09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllRMktzUjFZZFRPamlMY3YzeGFxai9Wa0hHdm13bFlpTWVkYjBXdGlRRlJuUzUrcVo4dGRWeWQ2cjd2MlRST09uWU9uM01KbzBkQVhEaFJ3aEtVelEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODM1MzQyCWZpbGU6Y2hhbnhpXzAuMi4wX2FtZDY0LmRlYgpmQytZMmpKV05IQTdtdXNWdmpOYldSQWtnd2Zid2ZnWXFLL21RUVZNdFFVdEM4Y3AvT08wMUpnS3VkTEJoOWtoclBwUVhoN0dnWjR1RUo0VURFVjBCUT09Cg==",
       "url": "https://gitee.com/doo8w/mychan/releases/download/v0.2.0/chanxi_0.2.0_amd64.deb"
     },
     "windows-x86_64": {
