@@ -1,7 +1,7 @@
 {
   "version": "0.2.1",
-  "notes": "内核升 0.41.8；内核出问题时看得见原因；修若干",
-  "pub_date": "2026-09-10T01:04:56Z",
+  "notes": "内核升 0.41.9（法条12）",
+  "pub_date": "2026-09-10T06:31:21Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblRkNDI0dDFnVzRFd3IrSWtuKzVOYy9QbGYzSTZ4OUJ6ck92R1hCQ282aW5oYnNyam9pQ0RqSkpaWkNySzhWeHJ0QVV6ekRReEFnZ0QwalNONXoxdUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjU3CWZpbGU6Y2hhbnhpXzAuMi4xX2FhcmNoNjQuYXBwLnRhci5negpReFlNN3pTU2tNZDFubEFsTVBRODR5MUZvQjRkbTNUdW40bmNocjdwcHRUdUtiSnAvWVFEdzhNSlBTZmdBNVEvQXlHaTIreW4yakZwOC9qVldnQVZCQT09Cg==",
@@ -51,43 +51,43 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core-bridge_0.1.3.zip"
       ],
       "sha256": "640390d52854341907f7a779d446b7588512d715571c49ca8cb862852532dfe1",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNGQUcySEZVWGJwd2xXcGMrUUJTY08vZUtTV0NQem9JZURHbHRBTXVnclRYeVpab3gwNmdWM3MzMHM4THU4QXluR3NpK2JiWHVaMEZ5WTM5OFE0eFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc3CWZpbGU6Y2hhbi1jb3JlLWJyaWRnZV8wLjEuMy56aXAKQTJkb2dHQm5Rd2JKeEpBMUlrMzFMNmZMU2NnaGk2YUNUWlVJaS9wV0x4NzJ1NWI2M0toREVZdzdaVHMwT0Jxdm1hNHZuay83UmljWDArWlU3V1pMQ0E9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblpnY0tVKzZSZHdJbVFxcUNlWjBIZWVMTHFKc1NlRTJxY1QwSi83N3p0bVZHSm02RGpTeXBGMUY5MlhmMERFSUVIY2lIaGFjMjAzOHlkMGF2TDRoUXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc5CWZpbGU6Y2hhbi1jb3JlLWJyaWRnZV8wLjEuMy56aXAKcXBiSVR6R203eTFZaklXR245UElGQ3EwbEVMeFNycnlkVTVhSWtWRzFPWnR1Y0M4cWpzTkpiZlpPeW55MlNqNDArVzJIOVg5ZG1ua3lPMjBXRzZlQlE9PQo="
     },
     "chan-core": {
       "kind": "native",
-      "version": "0.41.8",
+      "version": "0.41.9",
       "platforms": {
         "darwin-aarch64": {
           "url": [
-            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.8_darwin-aarch64.zip",
-            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.8_darwin-aarch64.zip"
+            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.9_darwin-aarch64.zip",
+            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.9_darwin-aarch64.zip"
           ],
-          "sha256": "242c02193afc45a9830025f36489b4826cff62282d0dc70deabbf35eb386ca40",
-          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblEzS0dQTEV1cUpGQ0oreVNaS2p0emo3OFdDRDVXT2lvRUZMSVMvMDhqQnYzU3pEM3I1NFJGUHVLMm5odkFRZFpsT21GaHBkYVFKZy90cElUbGwwOEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc2CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOF9kYXJ3aW4tYWFyY2g2NC56aXAKcmhDN2xEYjNWcXIrTEd3c0hRSzVkTXZWbEhNN1hzWVl1emUwWE5vZzUrN3BLYXBOYjI4S3Rod3VjSThqSFNVRlo3bFJGbHhZMk9iaURXaUQ5U0J5Q0E9PQo="
+          "sha256": "b44d1dac280ee2f874aeefa1139ef669d7d9aacf3cfadba9cc319b750fa03244",
+          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmRVSHlEckRtaVFxZ25YTitYeHRFcG4wTDJmSXlnaE5RS2s0bFJ1NU5oc0c1M21yWGV0MFRubnF6NlJWU3dodXlZRmE0NVZwNTFUd1gvYmZ3RysvYncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc4CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOV9kYXJ3aW4tYWFyY2g2NC56aXAKOURyTUdNb1hPRllIeUNReWM3NUMvRVIyeVJFcGpsY1plRzdwWVRFU1o5STM0bXA3Qm16ZC9zYTh5Nnc1NzJWSFdqZnJkN3lmZmNBVjhSYVVUblpoQnc9PQo="
         },
         "darwin-x86_64": {
           "url": [
-            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.8_darwin-x86_64.zip",
-            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.8_darwin-x86_64.zip"
+            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.9_darwin-x86_64.zip",
+            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.9_darwin-x86_64.zip"
           ],
-          "sha256": "6ec0f375ab4364c994e81e0a098a4de7253f0666241d80064fe028abb895bcb7",
-          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNJS0IvS0JHL1B6SFlnQXk1SVdpOEtHYlBVMXBYTnhHNXdHVktHQWtURUVIcXpMNFVuT1d6eEpHZmY2TWEyRTJBS3JCLzB6VFRCRjdKQlIvSHRiU0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc2CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOF9kYXJ3aW4teDg2XzY0LnppcAowMlRBSjdUNThYTTYzRTFTUU5KTHBpdWhjQjFIKzR5bFM1ODlxLytnczJCaWR2Y2N4MC9XZXh2eU5MYmppTFYybWR6ZUxENlBUTHpUenAyVGVOL2lEdz09Cg=="
+          "sha256": "3c2f763ed51cfd5327be0c7d16311c75f9023fa663a733d9d51ca80586ae1158",
+          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmFCRGlOL3FuSHh4N0MvNjVXemh6VU5lL2xHQkhRSjRtY29OeXhGWnU0dERBT1d3eXNWckd3U3lJbGNUZmp2OUZqZDJTekxkcU5qV0lieWwyeXpVRVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc4CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOV9kYXJ3aW4teDg2XzY0LnppcAphNFRGMDNwWTRNeHNnZlE1WUprcWFOSWsvS0xUT1RhbStaV3AxWWJRcFRJbUE3QlF0ck0zcUVBbTkrZkZDUkpRR3BobmhMNVhLVW56MmdLL3R5TGZCdz09Cg=="
         },
         "linux-x86_64": {
           "url": [
-            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.8_linux-x86_64.zip",
-            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.8_linux-x86_64.zip"
+            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.9_linux-x86_64.zip",
+            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.9_linux-x86_64.zip"
           ],
-          "sha256": "4f2019aa210f30078d0065dc08848e8639d586857499c1de8dd643781ec6fb75",
-          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJ4RWVDK25LVjJWOVlmVXl5dHd0cUpnYXpCY09mZ2d1ZUxhSXZGWkdaR2NCTnY4QlU2QWgwZ2FDZnM2WWFLMStzWnVhN28wVmF6SE42NDdGVzBxYlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc3CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOF9saW51eC14ODZfNjQuemlwCnAxSk1URElsN3lBWlVWR1h5YkRkblhzN1hLTXJpSlR6U2tRSTMxNVkyWG9ic0czN2UzMkcrSFJTL0pFaEZ1UDBVSlhZaE52TXJwVXJuN0tKTXBtTUN3PT0K"
+          "sha256": "c58214541a7968679d6105ee220211ae1f311ba930abaa1a7b96b4adfda0d594",
+          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbloyWFowelQ4bXF2WExYMDhBQ29qalArZjZ6SkI2RWxmbmtFMkdZUnpKb01iYUhqK0lCbUhWTjIxOEdNVm1LMTgvazZ0V0dXOGFwZ3BwaGRJZlZ0Rmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc4CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOV9saW51eC14ODZfNjQuemlwCkZXWGRMTVhXSktBUnR6Nmx0dGNBSjRwWmlRSFNKZFlIaWM0T01seVJZNUVtVTMzbTBtZnZDcnVoTDlXQSt3cUcyQmI5SHlHcjdaZ1pnN0JlOVpnUERnPT0K"
         },
         "windows-x86_64": {
           "url": [
-            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.8_windows-x86_64.zip",
-            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.8_windows-x86_64.zip"
+            "https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chan-core_0.41.9_windows-x86_64.zip",
+            "https://github.com/traddo/mychan/releases/download/v0.2.1/chan-core_0.41.9_windows-x86_64.zip"
           ],
-          "sha256": "6b3572b3278b07b87c0cfbd069951a5e5876df10b4d4d231708120c0b11c659b",
-          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lbll4cDFVdTZZdDRiWVZEdzRpR0ZCbWRRK3NPWnc3dmIySXg1alZ4SERub2pieE0vMmFObXF0anUwZzJ1RVhNd3JQZXh4M2t4MFhNelNhTEo0bnNsdXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc3CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOF93aW5kb3dzLXg4Nl82NC56aXAKQUtFVDdaYmxQV3V1YWpMNW5pUHNMZG1Ta0V6cGVVK2tsUGhzZmtjRVFvMUNyNHROdFlaNUFDNklkcTcybXZnNFJQVU9QL09sNlZ1bVFkWlZmemFkQWc9PQo="
+          "sha256": "1a8060d3675e1f1085aafa49823227a7c6be611cedba555657f35aae4f4110c9",
+          "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmR1M24ySGpHeStXWTBZZDdoMEtsUFVTbEFKM1JFTDB5cjN5VW1ObU1GQVRNSnRmOHAvRzhoSEFLRUprNUh3cTViSllVVGlPeGh6aUVjVHo4UGVkN2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc5CWZpbGU6Y2hhbi1jb3JlXzAuNDEuOV93aW5kb3dzLXg4Nl82NC56aXAKR1ROL2FRcFNHWEFXV25rMTdpOFdORHY4Skc2bjErV1hzN25RbjBIUTR0OXl3N3M4aUhPSUtQSDFPTlhQNnRhNzJTSkdUSExHeUVxMVNMTG5KeEdYREE9PQo="
         }
       },
       "apiVersion": "1"
@@ -101,7 +101,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/charts-runtime_0.1.3.zip"
       ],
       "sha256": "be6f54c41f52fa0212f16e0c42c962c80df1c5a39dbae3137648bcbf33181d34",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmI3QUI2Z2lxUCtzT3ZDU1cxWnM5MVE1ais3VmxqSGdKU29RSzJuRm1ZREF0Mjc3T3BGWHlUdHhscU9zV2RaV0w0Y0pyYUJSMFE4N01NL2htSlRsVndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc3CWZpbGU6Y2hhcnRzLXJ1bnRpbWVfMC4xLjMuemlwCmpXdmRhellONXIrQzdmYUsrbGVNWUtCMTNLNlFtL20vMGxJQzYycTNBaXo2WVZhWFRScVFLREYyT2U4OFNxeFlMZkxXSVA3cGdEckJTbDZzQWhJeER3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJXaFNEWXBVZmdZU281STE2Q0xNYVpldnh0eG1ZREg3dG0vRkF4aVg5UjdUZWVrcCtaMVJMN2dROGl5TE51NEVPMmFTcXRJUmFuWXdpbkpEdTZsVGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc5CWZpbGU6Y2hhcnRzLXJ1bnRpbWVfMC4xLjMuemlwClVXem5xejFaS2pxNEhENE9CbzJnNHlvSzRVSjIrek1iTHB6eGhnMFFCdVhqY285OEFxeEFITk03dWN0SDU2WmgyVWFPRlRlWGQydzlOSW9lZGt4Q0RRPT0K",
       "bundled": {
         "chan-charts": "0.4.0@400f41b"
       }
@@ -115,7 +115,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/data-import_0.1.2.zip"
       ],
       "sha256": "5285b70619b336d7e34a5579209d6122fa01cdc0163c432278268e1ef08eee4d",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblNxaVVhK2h0UnVLYnpVVUJBcWh5MWhJaVFuenVXZmYrTEpxTy9YNkFNejc4N3gzeXRwYjZWWU1DWisrTjlXd0pFUHY1NWNnQU9yUzl2RHBZd2Q1ZFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc4CWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjIuemlwCkFjMjIvRVV0aVpUb01kbDdTV0RRSGIzVlg2REJqSFhsTVo3K0pTMms1NmxmNUFaSjlJeG1tNkwrck5iUEN3cnUrbkk0R2tpK1lTanFRSDZHWWk0SkFnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblppSTJXd1NhQ0M0S3U0NXZtZUJzVTFiKzZ3UktLNTJwdXBobnpUTGNpZ1oxOUpRdmtrWDRiVExjZkdlc0I2NTJOOS81LzVuanA1dWRiQllNZzNNb3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc5CWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjIuemlwCjhwQUt4RGovdVM1aXQzSGJobzlCTnMwN1RZdVQ3ZStwU3Zhdy85NXJFZlFyVVVVU0VJdElFVEo2c0NaT0dhTlNYTXpuSEhJTEpUZnhwQTlPeXAvMER3PT0K"
     },
     "export": {
       "kind": "frontend",
@@ -126,7 +126,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/export_0.3.3.zip"
       ],
       "sha256": "cf9a652b61d6fb0e4be5c6076528060abb2c7fd959c6df784b73850099606ff2",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNnNDNqM09IU1RjK1ZmVHpreTB1L1doaitZZjlrWXI0MCswSHQwVU96VVFoajZ0QWxtbzB6dkNlRlFHNlAxem91eW5OTGgyZXAyOThkYVdvRTc2aGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc4CWZpbGU6ZXhwb3J0XzAuMy4zLnppcAppTlI5UlZPTnRIQ1RBam1LZUpqQlVCRGN6SlZhZlpyZUozamQ0dVNhZ0x5bU5ZSElFRGFGeVZYZG5Ua3BNR2VPaDIrSE1IN3JKSElMNXBWK0syWWlEZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblQwV2J4NDJtV2c1VStvTHlaOS9GTW5yV0k3cUlYNzZoNEF6VEZsaDlZbTliS3hUbHk3VDZhV2VGZTlqUWh4YzFVcS9LN1ZWdXVlMVVKSjJNR1FQeGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODc5CWZpbGU6ZXhwb3J0XzAuMy4zLnppcApIMk1oeS9veURmTlZSMG1XbDFUdG5wRG1YOUNldmZMZEU2WE5XaFJPTGR4bEtVREI2K1V6Q08yRWtUZm0zbjFqem9iNVUxTHZQQWNRczVwWGl0UDhCQT09Cg=="
     },
     "notes": {
       "kind": "frontend",
@@ -137,7 +137,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/notes_0.2.1.zip"
       ],
       "sha256": "0cd3cd77ee7b39ca1bcf24f812ae54cd56bc990dc2801d58bf2ece39cb3cef4f",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblY3ZXZlZ1VVd2IzRzFXYnh3bXhWNGxWMFZ4VFhqemtlMG9md3VzODVsSWlXMVE4VTVkSWZsUGFFMkhsaWc3bzJYWTNNUWNHQTB6RnFaT0s0NEcyM0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc4CWZpbGU6bm90ZXNfMC4yLjEuemlwCmUyNTVsRUJuSWNHUlNlV054ZHNXWnQrVlNjbGVGUW9QdCsyZ05ZeWNhRjh4ZWtWOHh6VFNuOEhObW9JYVVtcXRONWxSaUdyK05vUXZ2T1ZTNjB1ZkJBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblg2dSttNUIybzhPbW9zd1BWU1BzNzJWQ1pIRUpsc3RFMEtTancrWnExRzFXcWtxc2VsTkI4TmFnc1p3RlhNcDQzYnpxOGxldnBucm8yUTk5ZU52L3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgwCWZpbGU6bm90ZXNfMC4yLjEuemlwCmQ5cS9CSG5kQjl6N1pSSkFDV0MxZlVCSytyeWR2UVU4MXlZQStsZVRHNllMK3UvUkoxMWRxNnRZN0xrTTl4d1hwZCtpTmZBenFocjJrNGtlWHpCUUNnPT0K"
     },
     "practice": {
       "kind": "frontend",
@@ -148,7 +148,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/practice_0.3.1.zip"
       ],
       "sha256": "42114c1ae545dcc52de7bf9c39accb1ea2695948cb8fc4ad89c7cc809064255e",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJia2JwUmJLRGt3clRJc0FEbnpGQTY2UUd0dnZQVnIvQWRFYWVZSGlCbG1uYjk3UUVsZVhBUGtMSHJBeWQ0OXN0Z0tUOEZJNzhJbDdhSE9rZDQzN1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc4CWZpbGU6cHJhY3RpY2VfMC4zLjEuemlwCmF3OXZWckNuVjJJNm1aRTQ2TE1Wd2xPcTYzZGl6c0NvQThiV3kreHBEZGlkd3RXVnlUWUNGdlkvVXoxaFBJdUZXSVgzQ0FzQmFaNE05M29UcjhuQUJnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblZZN2ZQSmd3RDJmRDI1bWIwa2MxZUxxT252elpkVDVuQUJXZ0djK2pYNk1kcmN1elBsR0ZybXlFVzNjY3M0a1hocGY5TnVmYnBhSnlMSU1BcStFZXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgwCWZpbGU6cHJhY3RpY2VfMC4zLjEuemlwClptbktscGozWms4STllWUo2K2JJMkg4Q1NXYndqQlJJN2Y3WHd0SGFiNjUwS2hYMk1LcUZtcWc0L1dRbjlYTUx3RC81bzV5Y1JFcjdhbEtRcDV1U0F3PT0K"
     },
     "replay-csv": {
       "kind": "frontend",
@@ -159,7 +159,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/replay-csv_0.1.0.zip"
       ],
       "sha256": "d529a0e034bd52690602c18c3ffbc2e69d6ab6906382dee1cc96063fc9cdc706",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblUrZkpyVHY3bDVPOEs0YTF1MlZhdmt5Sm1ielFlYkliZC9BcFFUbmRucmFHNEZIbjNNUk00VjJEVlhyY0Y2WmZScFVLWldwSmlSR0htc0crVENGSlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc4CWZpbGU6cmVwbGF5LWNzdl8wLjEuMC56aXAKT2tWc3lueWFFL0lHVzh1bnlkaWMxcEMyTnhBOTYydTh2OWJweDJrZzNsYWhreHdNWVR4QnROaUhNR1RKUXc2STVKQTB1aFJSdDlQWlVOcXl2azNRQmc9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblFRNmZ2U3FHZEI0S3hxcUNhRVhUK2ltK2VvTjBtdnFPc0NTemlUZUpNd2JuWVVOWW1BVnJGL0FnSnI5UzY1dzlYZzlRazdqYVNKb2htdytIVm9ORVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgwCWZpbGU6cmVwbGF5LWNzdl8wLjEuMC56aXAKUUVUYVpXaFBsS01QYjR2SkdnQmExNTJmNzJpdlk2R3BiUXE3SEpKb09aejlyTnhzcllFdVpPSE9HeXVVUHJHYlIrcENCeEUrNlFqbGlnTXVnZFgyRGc9PQo="
     },
     "replay-mt4": {
       "kind": "frontend",
@@ -170,7 +170,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/replay-mt4_0.1.0.zip"
       ],
       "sha256": "2a7eb4e030a5a3ba4c3e6af57910a384a2672821bd2cb4d7720d23708f6902aa",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZCRUJGRnYyNjVkOFlJdjE4NERUUW1ESGdHS1VSeFU5bm1DWVZkT1c3ZHNiYXduQkJUZUpnbEh3VTY1QmNWOGFQZGQ2ay9aTWpVd2FYbWFXckFLemc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc5CWZpbGU6cmVwbGF5LW10NF8wLjEuMC56aXAKWHpmaWk0ZUlpM0EwZ0hUMDFQdFJYZG9La0IwcWFwZ3NXd1R0ZjA4QlphTVFLV3luQW5KdS9SZk5sSWZJSHhrSWY0SSt2UlRtY3RhckcyMGNuSUZyRGc9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllUMzJJSzE3UHpNd2xnM3hyNDUzNFhjczhDRnladzJ6V1d1Tm9xTEtNWWIwYVg4dHJHYWVOK0xOZU5jSHVNUnBtdFVybmhveFBRZ2pUcjVnMHAzWGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgwCWZpbGU6cmVwbGF5LW10NF8wLjEuMC56aXAKNS93MCthYkZRYlpicWRMZkw3WHpDcWUrcWlCbnNsejRyalgxeWRuaXErNWRPcnhHRzRQdEFLbFFJVUR6N3lRakZvVlMwRjVHMlpzUUE3MmVxeE8xQnc9PQo="
     },
     "replay-tdx": {
       "kind": "frontend",
@@ -181,7 +181,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/replay-tdx_0.1.0.zip"
       ],
       "sha256": "4836926840da4c360072587395a87bb972cda9fbf6bc95fc74be4eb380be9f71",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblZWM0plUkhDY3JtZ1pqclNHLzdUTXBMVUQ2TGZxWnZwRVE2ckEzWGVCZHhxSnY3THRPNjVoa3MxOU9ORG1MMkplQVNnZmpWNmhBR05RcDc0NlNDZndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc5CWZpbGU6cmVwbGF5LXRkeF8wLjEuMC56aXAKampZZy9XWHE4cE9PNWllYzd2dkoxVE9lRWphMFAxZXdCbjFxMkoxVmtSRWZJRExndm5iOVpiRnd4R25kZ3lJWGpWc0NnbGRLVmNsU1JnNWVka1dWQkE9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJRdE1EYWlaWndFbEJOSDd4dDBiQ29keWltZTQ5SVMwZUNjaXdvWWhXclk5Z3U2RUZ6SUFxUnNhdElUclhpZ0RzU0JZRXExR0lPaUovKzUxM3o2MlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgxCWZpbGU6cmVwbGF5LXRkeF8wLjEuMC56aXAKdTNyOGRyN294eGYrMGtmLzZTZ2xWaVlid3R2aWw5RllKa1RhVmQyRFFJYU9EdGU5alZVZHFwclVQM3hDaVBiTlRXUGJNTGE5ZzI1TGNUankxdE9nQUE9PQo="
     },
     "segment-library": {
       "kind": "frontend",
@@ -192,7 +192,7 @@
         "https://github.com/traddo/mychan/releases/download/v0.2.1/segment-library_0.3.2.zip"
       ],
       "sha256": "630e8d81b14c328fbff42770375225359343ac1639276e718f10e81a0b9b5898",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllOSGtzMXJhOHJ5VnQxSzZvdDErYWNaTVI5dndVS2RmeWNoVUd2RHlMbWk4UEVONmNoSVFVZGpBLzdicUlmWDlYUnhnOUpIYWNSSVRVZjFoQm5DUFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDAyMjc5CWZpbGU6c2VnbWVudC1saWJyYXJ5XzAuMy4yLnppcApKL0JqUk5FZEVVQVdLUjVmTk1UcWtoVGtQamorZ2NGTkZ6UEtlaW1Yell5ZmtuZVV3cGxGYnhpc01ZTFhwWFdialNmK2J2VElobUNkOWlxK2VFdzBDdz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNZRHdQSndpYWNxTGVhYmR5UnVzV3lUREhHRWJOWjhkdDB1QklvZ1Vlb1M2dEd4c3BNdTcxZTg2SW55eEJWdDY3bUsyMXdUMWswRmR0L0tIYW5yd3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODgxCWZpbGU6c2VnbWVudC1saWJyYXJ5XzAuMy4yLnppcApScnRqVnZPdHV1dEJOOHAxU2FudnhqdmUxOC84R1IrMnEyZTIvQktGYTdqQjh1TGFmZkRJSzhzTEMvdmNRMTl0T2ZNNVBPQktQQ0ljU21EbDYvcCtCQT09Cg=="
     }
   }
 }
