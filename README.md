@@ -22,13 +22,13 @@
 > 点下表里的链接直接下载。（[Releases](../../releases) 页面里那一堆 `.zip` 和 `.sig`
 > 是应用自动更新用的，不用管。）
 
-| 你的系统 | 点击下载（v0.2.1） |
+| 你的系统 | 点击下载（v0.2.2） |
 |---|---|
-| Windows 10 及以上 | [chanxi_0.2.1_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chanxi_0.2.1_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.1/chanxi_0.2.1_x64-setup.exe) |
-| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.1_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chanxi_0.2.1_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.1/chanxi_0.2.1_aarch64.dmg) |
-| macOS（更早的 Intel Mac） | [chanxi_0.2.1_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chanxi_0.2.1_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.1/chanxi_0.2.1_x64.dmg) |
-| Linux（Ubuntu / Debian 等） | [chanxi_0.2.1_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chanxi_0.2.1_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.1/chanxi_0.2.1_amd64.deb) |
-| Linux（其他发行版，免安装） | [chanxi_0.2.1_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.1/chanxi_0.2.1_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.1/chanxi_0.2.1_amd64.AppImage) |
+| Windows 10 及以上 | [chanxi_0.2.2_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.2.2/chanxi_0.2.2_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.2/chanxi_0.2.2_x64-setup.exe) |
+| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.2_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.2/chanxi_0.2.2_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.2/chanxi_0.2.2_aarch64.dmg) |
+| macOS（更早的 Intel Mac） | [chanxi_0.2.2_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.2/chanxi_0.2.2_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.2/chanxi_0.2.2_x64.dmg) |
+| Linux（Ubuntu / Debian 等） | [chanxi_0.2.2_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.2/chanxi_0.2.2_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.2/chanxi_0.2.2_amd64.deb) |
+| Linux（其他发行版，免安装） | [chanxi_0.2.2_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.2/chanxi_0.2.2_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.2/chanxi_0.2.2_amd64.AppImage) |
 
 国内用左边的链接（Gitee）更快；打不开时用右边的 GitHub 镜像。
 
@@ -103,10 +103,10 @@ Windows 安装包未购买代码签名证书，可能遇到两种情况，都是
 每版改了什么见 [更新记录](CHANGELOG.md)。
 
 
-## 更新方式说明（0.2.1 起）
+## 更新方式说明（0.2.2 起）
 
-- 用 0.1.7 或更早版本的，收到「发现新版本 v0.2.1」时还需要下载安装一次——
+- 用 0.1.7 或更早版本的，收到「发现新版本 v0.2.2」时还需要下载安装一次——
   这是**最后一次**整机安装；
-- 装上 0.2.1 之后，分解引擎和各个功能模块都会自己在线更新：应用启动后或你点
+- 装上 0.2.2 之后，分解引擎和各个功能模块都会自己在线更新：应用启动后或你点
   「检查更新」时自行下载、校验、换上新版，**不用重装、也不用重启**，状态栏给一句提示；
 - 只有应用本身有大改动时才需要重新安装，那种情况应用会明确告诉你。
