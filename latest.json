@@ -94,28 +94,28 @@
     },
     "charts-runtime": {
       "kind": "frontend",
-      "version": "0.1.5",
+      "version": "0.1.7",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/charts-runtime_0.1.5.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.2/charts-runtime_0.1.5.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/charts-runtime_0.1.7.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.2/charts-runtime_0.1.7.zip"
       ],
-      "sha256": "6be040bdc3de72709bf484d76f8242199c10f8bd3afeccf2ed570019e2b28b61",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmRXZGhNRldHeWxhdVMxS1hiM2tRcDlqZEJSN0NPYS8rUDBkMlNlYW5TQjFzUnNpK0NKamRZb2Q5dXhLK2ZyQVdrOUZycWpua1RrY0p1VDdPL3Z6T0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzU0MzQxCWZpbGU6Y2hhcnRzLXJ1bnRpbWVfMC4xLjUuemlwCmsxc2g3ajN6L25TRi9wQjhuS1FzcXJNMHlSbDc2YUlDWTVtTG5aNnpseVFQRm5HNlBLU3o0YXhWSFFmZ2pCZnNkRkUxMUZmUVM5QWsxcVhQekVRVEFRPT0K",
+      "sha256": "f1ee3b075ded5bcafaa6207f1947a98bace0ce6ec9a929c2f087a47b82215756",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblduVElhWk1Na2x6Yk9hRVM4S0xEdE1kcGtpWlhkaFNtZ3AvUXFpcU1xTEdVUWVqWlk4Nm0vT3dNelkwYS9LUVUrUjVGMHRDS3ExeUFlMTJwTlZqUndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkxOTQxCWZpbGU6Y2hhcnRzLXJ1bnRpbWVfMC4xLjcuemlwCm1QL0VpUE9WMDVkbm1wMERsUkpZT2tnZmI0aVhIT1lqY2piL3FGUzlqZmZybTVHMDRYcm9CampWNExoby9nWTVuUVVnVkwxUjIrbHJ5K2dzV2JhTUFBPT0K",
       "bundled": {
-        "chan-charts": "0.5.0@611a5d1"
+        "chan-charts": "0.5.0@f98759f"
       }
     },
     "data-import": {
       "kind": "frontend",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/data-import_0.1.4.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.2/data-import_0.1.4.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/data-import_0.1.6.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.2/data-import_0.1.6.zip"
       ],
-      "sha256": "4c0835a16612642a5399a593b431036fa9c6abf579a7b6c417caabf8a735af7b",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJLdmFlV2k3RWpGTVJla2twSFRmWmRvZkxjSWJnUFZwTllXYzl6MW5yRmVRSTdFaEVRU3ZCVWQxcUhSL1QwUTFTUGlIRDkzMTFmWkZtTVRHa3k4RkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQxOTQ4CWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjQuemlwCmVmT0llYVpqMmFpZ1Vab0RuY21nQkJseVBwQ3VIdTVreVdPai9oRE44dkM4YnJEeVJsQlNTM09TdFVHMmZpcUIyV25MZi9JSjFtUWVWRW5VZUc2aEFnPT0K"
+      "sha256": "fd109214b723baa2cf5fea1332942429cec3ee337516f4f26f3dffd505739343",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbldobzhZaE96NTd2NHRJNnZHT3F2RS9WcmY1Y1U3ZHpZTDNIZTM2ZTIyQ1hDMHpiTVBuWEZyeFRiRFVFZEtRdDRadHNDWDRua09HY1d1YVRRU1A0N3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkxOTQxCWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjYuemlwCk5MU1M3eTE3RUNmVVdVVzllOGwyazlNOXFoUEtiYnRQemF0a0krSU9MbWtoUTA4NERCK3pJUzc1bllFMlVvYmFJbm5zbFp4WUxPMzNaTkxUcWZNbkRBPT0K"
     },
     "export": {
       "kind": "frontend",
@@ -152,36 +152,36 @@
     },
     "replay-csv": {
       "kind": "frontend",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-csv_0.1.0.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-csv_0.1.0.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-csv_0.1.1.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-csv_0.1.1.zip"
       ],
-      "sha256": "d529a0e034bd52690602c18c3ffbc2e69d6ab6906382dee1cc96063fc9cdc706",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblhvajd0TUoyOUpubTFncnM5SXNVMGF5R3d5UGtYa25hWEFBZEt4ajhSL1RNUlRRSkVjZzVRaXhkUmFQN0I1Y0ZzMld2ZlA5dWtoOVJ0VlNuR1ZUeHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQxOTQ5CWZpbGU6cmVwbGF5LWNzdl8wLjEuMC56aXAKQWlVajN4Qm1WM1hLTlhySmVuNFlvWVM3elB2YmhpUjhySFllU2lEUHF3WVhMRUYvdGNsRFpKRTdBVVV6OGY3NjBzQm84S1IyOHViaWcyU0o2MiszQlE9PQo="
+      "sha256": "8f962bc1e0d982e7a15840fe1f3ec7afe855400e6df4aef9ed00e2b102ca4db5",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmRHdmo2TVVKUzM4M0h6aW8xM1hPUzh0ODFIbU9WcVNLR2xITzdSQmxMNkhuOCszVERtbFNHL0kzNk1DTW1EVlgrdWJaWWc5VGttcExDT2JGRjROZndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkxOTQyCWZpbGU6cmVwbGF5LWNzdl8wLjEuMS56aXAKYW51L2Y5ZmJ1ejN2QmwrZ0VvMkVDS1h3UmpENVVhR0VBWHIyN0M4cUF2NlM0SVdZVnhKSzN5V1JtNDhJcFJVU0VxWFVoR3laQ01pbm0zcjArWkdUQkE9PQo="
     },
     "replay-mt4": {
       "kind": "frontend",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-mt4_0.1.0.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-mt4_0.1.0.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-mt4_0.1.1.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-mt4_0.1.1.zip"
       ],
-      "sha256": "2a7eb4e030a5a3ba4c3e6af57910a384a2672821bd2cb4d7720d23708f6902aa",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllzRHh6bXhtOTN2SEdCclllVnlETUZtZ3k3U3N3ZGdjVjNhbzlFci9rMWVqUVBIOWszTFVUdE5GNVI5WER4TXVEdk1wZ3ZreEZ0Y0lXcE1BNkF3ZkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQxOTQ5CWZpbGU6cmVwbGF5LW10NF8wLjEuMC56aXAKYlpMR2ZiSU9MWUJiaEdySzFHYlB4Si90TGtBVjhQQzdYUUIwdDRTQThZL3dOVEMreUE4SkxDaG5adkVUSEoxR3FDbGJTZnQyVEhLWHh1cFFwN3NtQmc9PQo="
+      "sha256": "dcb28c8ea40c39edbdbdf150f6d4d4da59bc2ab05c363791aab5eda6075c550a",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJhT0JZZ2VyTzNERzRhRko4ajlaNWpZcWs0aG9maW9PSktWZHZKeXZZK3RmVGFsaVo1QjZJbTl5bFVMU3E4NDh5aEt3bE5OcEJYRlo5VmFPU05oT2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkxOTQyCWZpbGU6cmVwbGF5LW10NF8wLjEuMS56aXAKNXFPVUpJc2doT2xNV21NMVhRQk5PS1UrUngwMEpDSWxBcUZvQ09vTExxNFUrNG1CZ0xjY1k5NGRDZ0NQMnZ6Y2k4bGE5YWN6SUhseHg1R2xEMjJhQmc9PQo="
     },
     "replay-tdx": {
       "kind": "frontend",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-tdx_0.1.0.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-tdx_0.1.0.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.2/replay-tdx_0.1.1.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.2/replay-tdx_0.1.1.zip"
       ],
-      "sha256": "4836926840da4c360072587395a87bb972cda9fbf6bc95fc74be4eb380be9f71",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmFzRmJ2am5uVVN1UDM3QWJFcDFJbk5KWEVoT2p4Q24rTE9DWFQ2dmtONk56QWtlOXVPM2FmQzlzcTFjY0E3WHNKbE54Sm05Q1FxeWg0MG1neTgwbUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQxOTQ5CWZpbGU6cmVwbGF5LXRkeF8wLjEuMC56aXAKRXpvUklMVmdSNWFsSE00c05veHExSUxLb0lNTFJsSENzc0d0eGlXYkR1VWlucjQ4UEthWGpRZFRGc0RoemxBNXRhUldmYW9RRGZhVkczZUN6aFpwRHc9PQo="
+      "sha256": "a3378a814e32ff1e77281b565f6b1c0c5ff2df994f80b653886f00f34df8a4f2",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbldNZ3NvWGN3NC9sbEQ5UG54My91MG9uc0xxNER5RFh5V3dqV3BGaWcwSjlyKzY5dVFTSElSYVpVcXRncVQrTG9iYWpZVUl3MjM1emRCc3NCdmlOaEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzkxOTQyCWZpbGU6cmVwbGF5LXRkeF8wLjEuMS56aXAKSHZnclh2NzJYZXoxalJtaTNYSDY1S3RIa3EwVEdLNExnQ00rVjF6MHhhZzFvZHFSK21oWG9KMmhNbXBKRFIvVmV0VVNldHEzZUZuR1NsVE9McUhwRHc9PQo="
     },
     "segment-library": {
       "kind": "frontend",
