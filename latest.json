@@ -108,14 +108,14 @@
     },
     "data-import": {
       "kind": "frontend",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/data-import_0.1.8.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.3/data-import_0.1.8.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/data-import_0.1.9.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.3/data-import_0.1.9.zip"
       ],
-      "sha256": "7cc37e421c9d608b7e72b7410117a12bd70f6ae037907577a3ee8b562d737a60",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmIvcFAxYnNmMzJidXdOOEE3eTRQQmlEUXpaSzc5QlQrbUV3M2dzb0NwNVVFSkFGUnY4WDJjQW5jcmRESlh5UENJM2VsOFRNTHRoUFV6WXVDeTNvenc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUxNjg5CWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjguemlwCm5aVk9xdlB5WnNhbnFtSi9IcmJBOWNra1pUMkVDSytWaVhJY0w5UnNlQ0d6VkRpRDRqY1IrbzZvTWpDVmhkMi9lVDh4aEtVcGE0YnRGWUlCekNhb0JBPT0K"
+      "sha256": "5f4d2a31778e14534b200640ba242eb5d788e6d71d544a2fd2638f5597e4d6d3",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZLMk1BTklXOWY5ZHlDd0IrSks0OWpuNEVUR0ZhREw3bnJYUVJtRTNQdjNlUU12cHlqajJLRnZSRnNDdm8wMGhhM3FReWdNMm1PbGIzMjVUL25pWWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDY2OTkwCWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjkuemlwCkk1VXN1YSt6SEcyMFVzNEU4WmFQM05ta3gyanRteFUvWmdteXhUcTdqa29rd0ZJR0FWSnRFVVBkMDhNZlpUNVA3ZHM5MUxES0N0cHVpWFFmWURmc0NBPT0K"
     },
     "export": {
       "kind": "frontend",
@@ -130,25 +130,25 @@
     },
     "notes": {
       "kind": "frontend",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/notes_0.2.1.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.3/notes_0.2.1.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/notes_0.2.2.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.3/notes_0.2.2.zip"
       ],
-      "sha256": "0cd3cd77ee7b39ca1bcf24f812ae54cd56bc990dc2801d58bf2ece39cb3cef4f",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJFcWgzSmlUZHBUalg3Wm9BNmtoM1BEWXMzRHY2c01mRVlMLzhpelpSbGVITDhsU09PQUdNenJDeUdFYzhDL0FkYzBYNVpibWhLMkQ4eHRWQ1Y5L1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUxNjg5CWZpbGU6bm90ZXNfMC4yLjEuemlwClpZZVBCOFdtSkhDWXdJNzNQSXk4TGRFRk9qS0lRcXdSeUU1Rm5rNVByMGNnSVNOblllbFAyaDFMRDFRdGtWU3k5T2d2bEM3YkNpckhwVnpreXVka0F3PT0K"
+      "sha256": "6f000abb91bf6be3f9145059fdc913216e90b326ecc07cae4cdf0001f926869b",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJPZW5FZkI0a1RrV2VTZWZla09sSjZRL1QwWGZWd09ETUtXTmdQWVNVVVdlWUtwUXQ0aGlSU1NuY09GdStPMVZWL3REdGZwMHRvTFgraERLNWlRcUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDY2OTkxCWZpbGU6bm90ZXNfMC4yLjIuemlwCjVMRTRMZW5KdDFLUkhsSTQwRk9YaDRrdkp1MTdNQ1hZRjVBNVV6VHZRUW9YVjJJL3UySytGdjJpRUcyS1hGdlBIZU9DazFiTXZISU1QSy9jQTBNQUR3PT0K"
     },
     "practice": {
       "kind": "frontend",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/practice_0.3.1.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.3/practice_0.3.1.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/practice_0.3.2.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.3/practice_0.3.2.zip"
       ],
-      "sha256": "42114c1ae545dcc52de7bf9c39accb1ea2695948cb8fc4ad89c7cc809064255e",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJuTUcvT0VxNE9lcCs3R1c3YWRhb1YxN2lKWGdwb3RWRUhCdTFqQXNYdGxHWXN0Zjc3R2Q3QURva0ZJM0QrWFJJTVdGWHFOZm4rTGh6Tnc5VklnaGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUxNjkwCWZpbGU6cHJhY3RpY2VfMC4zLjEuemlwCnFLYzc4SkpxbFlQN1Q0ZmdTcmxrQWdnTXBWRjM4R3ZNbVNKeHVEbVlobFMzUjZmdS85dy9PM3FORmtMRXozMXc3MjcydVB4WHJ5YktpL1ZIZ2RSR0R3PT0K"
+      "sha256": "dfcb318fa40e2eb1ee69bdcc71711bf6c9cb1dd2351fb47be8ea941262160e3e",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJwVTQrOUJwK1J6dDIxaDJnV2t2Z3dpSWd6Q2oxNDBvU3lGYzBYamU0WlVwL0d0VHN6TkNGM1pEOXlrSVJTMER4OGZ5ZGFQTU5kUEY4aXNTR0loOUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDY2OTkxCWZpbGU6cHJhY3RpY2VfMC4zLjIuemlwCjhzd3RmQ2pBS0phQTlwWXlGSlBlSlhTMmtGL0thbHlpV2xad2lBSjAzaDh2SXFYM2svMFBNMHRMU1pBMVhQRzB2d2I1MmdDMGpSaGdHenErZWpGRUNBPT0K"
     },
     "replay-csv": {
       "kind": "frontend",
@@ -185,14 +185,14 @@
     },
     "segment-library": {
       "kind": "frontend",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/segment-library_0.3.2.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.3/segment-library_0.3.2.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/segment-library_0.3.3.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.3/segment-library_0.3.3.zip"
       ],
-      "sha256": "630e8d81b14c328fbff42770375225359343ac1639276e718f10e81a0b9b5898",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblE2cXQ1K3Y5Z2d1WkRBZ1QrSzNCQ0hDbDFkaWo5eW5oNkR4bjhPayt1Y0FKUDIzaDRRSS9zcG5YVmFyWnZibnFVVWQ5cGQxVmlQdXZTdmJWa1JqMlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTUxNjkxCWZpbGU6c2VnbWVudC1saWJyYXJ5XzAuMy4yLnppcAo1WjZOSEpYSzYvYU9nK3pyTE1aTEdNMnRBa2pxaG9WYjRBUjZqcmNSWHBvOHpIcWI0bzU5QkFlQVRwSllIMVZwcTRKWnpwTDNJb0VzYzBqM0hOQ25BZz09Cg=="
+      "sha256": "115d540ade0f9a3548fa680b0979e3f93cf753b21ae359ed3b91efaf9638c412",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblNIb2IwR2hPVWY5TmlVZEVkc3FvTWJVTGZOdHY5UThkRzhCMCtqWURIQ1c3UzA2bkJuTHJvRzFrUFhmWTVSUXJtRS9UVUx4Y2pVWXlRM05zYWc1bnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDY2OTkyCWZpbGU6c2VnbWVudC1saWJyYXJ5XzAuMy4zLnppcAp0czFWZDB3VjBwc3hSZjhNMk5KTlJzOXRRblFiY1NyRUNOYit2SzJyQys0d09ZZFg0Q3ZKdGNNVVFsUzU4eUx5TXE4MitmdGk2NC9LQjNSYlhyK3RBZz09Cg=="
     }
   },
   "installers": {
