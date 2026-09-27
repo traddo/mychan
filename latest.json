@@ -108,14 +108,14 @@
     },
     "data-import": {
       "kind": "frontend",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/data-import_0.1.9.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.3/data-import_0.1.9.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.3/data-import_0.1.10.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.3/data-import_0.1.10.zip"
       ],
-      "sha256": "5f4d2a31778e14534b200640ba242eb5d788e6d71d544a2fd2638f5597e4d6d3",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmZLMk1BTklXOWY5ZHlDd0IrSks0OWpuNEVUR0ZhREw3bnJYUVJtRTNQdjNlUU12cHlqajJLRnZSRnNDdm8wMGhhM3FReWdNMm1PbGIzMjVUL25pWWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDY2OTkwCWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjkuemlwCkk1VXN1YSt6SEcyMFVzNEU4WmFQM05ta3gyanRteFUvWmdteXhUcTdqa29rd0ZJR0FWSnRFVVBkMDhNZlpUNVA3ZHM5MUxES0N0cHVpWFFmWURmc0NBPT0K"
+      "sha256": "104a8884223774230359ae93b26b122c8055a8c546bb55ca3c1019857ac1f4c3",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblkvZnNCaXZvRk9YWHorUUxwaU9tQlJybjhwUCtmdWxoQ2pPTmphQVAzSTZIeno1MFlEdTBtTVBXbzE0RnJBdS9aeXRXcDZQL1ZKbTRsQXVORENuM0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI1MTUwCWZpbGU6ZGF0YS1pbXBvcnRfMC4xLjEwLnppcApPTWlNblFaenBWaVV4K01XQVlPQ1dZbkFnYkRuaVlwZ2VBcHdSMm1OWkFQT0txbHhsZURmdU1VVEtLNGI3d1ZwQkJnZWlhRUtoMDd5YTRvYWsxaTFEZz09Cg=="
     },
     "export": {
       "kind": "frontend",
