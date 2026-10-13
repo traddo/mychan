@@ -197,14 +197,14 @@
     },
     "today": {
       "kind": "frontend",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "apiVersion": "1",
       "url": [
-        "https://gitee.com/doo8w/mychan/releases/download/v0.2.7/today_0.1.0.zip",
-        "https://github.com/traddo/mychan/releases/download/v0.2.7/today_0.1.0.zip"
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.7/today_0.1.1.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.7/today_0.1.1.zip"
       ],
-      "sha256": "caf177bfdf4034ed2de69ea5cbdf3bde7f6e3ffdda0a8ad878fa60c8d89c879d",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmRwdnBCVCtTNnI5MTRGNXM0a0pGTVAza0Q2a05kUnIyRE1hTGpmbERkUlJEOUpLdHMwU1V3MmJBcEp3Y0Z1bGxhSVljaEtMbXNuUVg5TytUK24vWHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI2MjAyCWZpbGU6dG9kYXlfMC4xLjAuemlwCkEyMUJlb0xBbmVHOVJQc2xXTVA0MEJrNkdkLzY1b3lYc2QvUDRXMlFMMnp5MWVTOE9yT0tEb3JEQTMyanpFWHo4QjBTRmtnU2dDc0UvYWVwa29wYkRBPT0K"
+      "sha256": "58903747136e5184655fed28bbe1176c5c1d2280a1cbba6336575b17fa385fa5",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblhqQnJUWWRDOEJRS0RrMHZzUnBrOEJ0MGljQjIrQzlhSUlMaktqOWN5aFZ2L0d4M3hXUlo0bnI4VURZMTJCUGZ3djlxb3RRK05FWUFQT3NEZDd6UWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODk3NTM1CWZpbGU6dG9kYXlfMC4xLjEuemlwClR1TWxrK0dDNkpsR0pMVHg0NW1RblhRUXlvMFNrdTh2UzlTTzBUQUwvcURndGJHTkF3ZWZsa2pweG1zRWtwUTQ3aFlNSFlIRU55dy9mOTFwSllTQkNRPT0K"
     }
   },
   "installers": {
