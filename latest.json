@@ -87,5 +87,18 @@
       "size": 5169608,
       "sha256": "5d28f64651abfe4ecd78d3cb29c047b474f7b1fec0c256f0f25b4e626ba98d33"
     }
+  },
+  "plugins": {
+    "charts-runtime": {
+      "kind": "frontend",
+      "version": "0.1.19",
+      "apiVersion": "1",
+      "url": [
+        "https://gitee.com/doo8w/mychan/releases/download/v0.2.11/charts-runtime_0.1.19.zip",
+        "https://github.com/traddo/mychan/releases/download/v0.2.11/charts-runtime_0.1.19.zip"
+      ],
+      "sha256": "d637cc90cdbac7cc2132eee5e7c9361d1610f4b9cf5e2640a0564dbad20c8ec4",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmY0NmoyUnhlbHFncjc3RGo5R1FXOWM1K1V6NStxd1VPY0JPbHk1ZWlLTGJnQ3RvVFhuTE5ZUE5yZHk2L0dUVS93U3FIdUZkV1VZRWQwbjdGeXFUd1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTg5NjgwCWZpbGU6Y2hhcnRzLXJ1bnRpbWVfMC4xLjE5LnppcApkekp0UzR4Qi9veTJ5dTdsSzFEc1NnMFNIeTVjOERnc0xybkFoeGV4Qi8zRyt4d1pNczVDVE9KVitjcUdkOGp3ZXFyZWU5MUF4bXZDTjlRMTlTYnJDdz09Cg=="
+    }
   }
 }
