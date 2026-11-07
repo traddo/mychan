@@ -16,19 +16,21 @@
 
 ## 下载
 
+版本：v0.2.12｜发布日期：2026-11-07
+
 到 [Releases](../../releases) 取最新版。**装上就能用**，分解引擎随包附带，
 不用另外配置任何东西。
 
 > 点下表里的链接直接下载。（[Releases](../../releases) 页面里那一堆 `.zip` 和 `.sig`
 > 是应用自动更新用的，不用管。）
 
-| 你的系统 | 点击下载（v0.2.11） |
+| 你的系统 | 点击下载（v0.2.12） |
 |---|---|
-| Windows 10 及以上 | [chanxi_0.2.11_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.2.11/chanxi_0.2.11_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.11/chanxi_0.2.11_x64-setup.exe) |
-| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.11_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.11/chanxi_0.2.11_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.11/chanxi_0.2.11_aarch64.dmg) |
-| macOS（更早的 Intel Mac） | [chanxi_0.2.11_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.11/chanxi_0.2.11_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.11/chanxi_0.2.11_x64.dmg) |
-| Linux（Ubuntu / Debian 等） | [chanxi_0.2.11_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.11/chanxi_0.2.11_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.11/chanxi_0.2.11_amd64.deb) |
-| Linux（其他发行版，免安装） | [chanxi_0.2.11_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.11/chanxi_0.2.11_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.11/chanxi_0.2.11_amd64.AppImage) |
+| Windows 10 及以上 | [chanxi_0.2.12_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64-setup.exe) |
+| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.12_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_aarch64.dmg) |
+| macOS（更早的 Intel Mac） | [chanxi_0.2.12_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64.dmg) |
+| Linux（Ubuntu / Debian 等） | [chanxi_0.2.12_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.deb) |
+| Linux（其他发行版，免安装） | [chanxi_0.2.12_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.AppImage) |
 
 国内用左边的链接（Gitee）更快；打不开时用右边的 GitHub 镜像。
 
@@ -75,17 +77,21 @@ Windows 安装包未购买代码签名证书，可能遇到两种情况，都是
 
 导入你自己的行情数据，用同一套引擎做分解。支持三种来源：
 
-- **通达信** —— 选 vipdoc 目录，自动认出品种；个股按本地权息文件前复权
-- **MT4** —— 选 `history/<服务器名>` 目录，读 `.hst` 历史数据
-- **自备 CSV** —— 任意来源的 K 线表格，列名自动识别
+- **通达信** —— 在「股票池」选择安装目录或 vipdoc，先下载 1 分钟线，再扫描、按代码或部分名称筛选并应用；个股按本地权息文件前复权。
+- **MT4** —— 在复盘清单上方 **⚙** 的数据源设置中，选择 `history/<服务器名>` 目录，读取 1 分钟 `.hst` 历史数据。
+- **自备 CSV** —— 在同一数据源设置中选择 CSV 文件夹，列名自动识别。
 
-点清单上方的 **⚙** 打开数据源设置：选目录 → **输入代码过滤**（如 `600036`、`EURUSD`）
-→ 勾选要看的 → 按「应用」。旁边的 **⟳** 是刷新——重读源文件、重跑分解，
-你的选择和笔记都留着。
+股票池可从顶栏「股票池设置」图标或复盘工具条打开。输入「万科」「茅台」「中证500」等名称片段就能过滤，不必输入全称；名称过滤忽略空格、全半角及大小写。
 
-只使用 **1 分钟**数据。发布版一次最多导入 **10 个**品种。
+股票池默认每天本机时间 **17:30** 自动读取本机通达信文件，可关闭或改时间。请先在通达信里下载好行情。**缠析缩到托盘后仍会刷新，从托盘退出后才停止；完全退出期间不会刷新。**错过当天时间，下次启动约 1 分钟后补跑当天一轮。正在查看的股票本轮跳过，源文件变短时不自动覆盖本地历史。
 
-导入的数据、你写的笔记、练习记录**全部存在你自己的电脑上，不上传**。
+复盘清单旁的 **⟳ 立即刷新** 会重读全部来源文件、重跑分解，选择和笔记保留；它仍按源文件整段替换，请确认源文件完整。MT4、CSV 不参加股票池定时刷新。
+
+已有通达信股票升级后直接出现在股票池，不必重新导入。扫描结果会保存，重开面板或重启后打开面板不重扫；新增股票应用时仍需读取源目录。
+
+以 **1 分钟**数据为基础。正式版股票池、MT4、CSV **共用合计 10 个品种**的额度，样例不占额度；邀请解锁规则不变。累计 10 位受邀人各自连续 5 个有效日打开「今日分解」并完成绘制确认后，解除这份数量限制；各人可错峰完成，已达标资格不因后续断日清零，自动刷新不计作奖励有效日。
+
+行情文件、画线和笔记保存在本机。登录后会发送之后完成的正式练习最小结果，不补传历史练习；可关闭的使用情况统计只记导入、刷新等动作的成败与固定类别，不发送文件路径、品种代码、错误原文或行情内容。确认隐私说明 1.9 后，登录后发送的新意见会关联提交时的账号，账号邮箱仅供管理员处理对应意见使用，不会显示在公开页面或 App 的对话回包中；未登录时匿名发送，历史意见不补关联。尚未确认 1.9，或只更新功能模块且不支持该告知的旧版 App，继续匿名发送。完整范围见 App 的「设置 → 基础信息 → 隐私」。
 
 数据较长时默认分析最近两年，界面会写明截取了哪一段。
 
@@ -103,10 +109,9 @@ Windows 安装包未购买代码签名证书，可能遇到两种情况，都是
 每版改了什么见 [更新记录](CHANGELOG.md)。
 
 
-## 更新方式说明（0.2.11 起）
+## 更新方式说明
 
-- 用 0.1.7 或更早版本的，收到「发现新版本 v0.2.11」时还需要下载安装一次——
-  这是**最后一次**整机安装；
-- 装上 0.2.11 之后，分解引擎和各个功能模块都会自己在线更新：应用启动后或你点
-  「检查更新」时自行下载、校验、换上新版，**不用重装、也不用重启**，状态栏给一句提示；
-- 只有应用本身有大改动时才需要重新安装，那种情况应用会明确告诉你。
+- 应用会提示 App 新版本，确认后可下载并安装；请先保存正在编辑的内容。
+- 分解引擎和已有功能模块可分别在线更新；需要更新 App 时按应用提示操作。
+- **股票池需要升级到 0.2.12 App 才有。**只更新旧版已有功能模块，不会增加这个入口。
+- 还在使用 0.2.0 的 macOS / Linux 用户，若应用内更新装不上，请从本页下载安装包手动更新一次；Windows 按应用提示更新。
