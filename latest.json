@@ -1,27 +1,27 @@
 {
-  "version": "0.3.0",
-  "notes": "新增中阴图层与邀请第二期；分解内核升级至 0.51.4",
-  "pub_date": "2026-11-15T04:14:21Z",
+  "version": "0.3.1",
+  "notes": "修复复盘中不复权的通达信 1 分钟数据只显示 K 线、不出结构的问题",
+  "pub_date": "2026-11-15T08:35:16Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblo5MktaUXpBOSt0c2ZEOEFWZzBMZ2x4Vm1uQXdHbkdWM3pPM2g2V3FvU3U2NFoxdndXMjhEQlc2OXhETDcxckttR3NyUjZTNFVUUngzd0cwdno4c0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzE2MDQwCWZpbGU6Y2hhbnhpXzAuMy4wX3g2NC1zZXR1cC5leGUKMU1qTWllWUNnNjFMWXdTd0Z1NXdhendmZFFOTUlVRWNMRHBDa2VLRkRyMDhvNTY3Y1JTUXByVlZYUXdsVHJvSGplTXNTaXJrREJOaWNSSkROQ0lFQVE9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.0/chanxi_0.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJMc0hMcmlXSkk5REp5d3dJc3R5WjhWZUZ1bjNTSzNYSGNXU3lWeis0UmkxY1NEZkVCSjhja2RWRWxQYWU0NXFaN1RZeWZ4c1p0TytycXMrNTNkdHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzMxNjMzCWZpbGU6Y2hhbnhpXzAuMy4xX3g2NC1zZXR1cC5leGUKTU8rRmUxS3llbVM1bmVnc1ZYaHJZMzNTNlJ0MXNuelNJT2YzWWIrUDhyT09VbjZOYk95SU1wYXFyd0Z0QStKTTlVNEtLUHVKN1pZMHJUN242a2ZuQVE9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.1/chanxi_0.3.1_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5Lblo5MktaUXpBOSt0c2ZEOEFWZzBMZ2x4Vm1uQXdHbkdWM3pPM2g2V3FvU3U2NFoxdndXMjhEQlc2OXhETDcxckttR3NyUjZTNFVUUngzd0cwdno4c0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzE2MDQwCWZpbGU6Y2hhbnhpXzAuMy4wX3g2NC1zZXR1cC5leGUKMU1qTWllWUNnNjFMWXdTd0Z1NXdhendmZFFOTUlVRWNMRHBDa2VLRkRyMDhvNTY3Y1JTUXByVlZYUXdsVHJvSGplTXNTaXJrREJOaWNSSkROQ0lFQVE9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.0/chanxi_0.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblJMc0hMcmlXSkk5REp5d3dJc3R5WjhWZUZ1bjNTSzNYSGNXU3lWeis0UmkxY1NEZkVCSjhja2RWRWxQYWU0NXFaN1RZeWZ4c1p0TytycXMrNTNkdHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzMxNjMzCWZpbGU6Y2hhbnhpXzAuMy4xX3g2NC1zZXR1cC5leGUKTU8rRmUxS3llbVM1bmVnc1ZYaHJZMzNTNlJ0MXNuelNJT2YzWWIrUDhyT09VbjZOYk95SU1wYXFyd0Z0QStKTTlVNEtLUHVKN1pZMHJUN242a2ZuQVE9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.1/chanxi_0.3.1_x64-setup.exe"
     }
   },
   "mandatory": false,
   "installers": {
     "windows-x86_64": {
-      "name": "chanxi_0.3.0_x64-setup.exe",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.0/chanxi_0.3.0_x64-setup.exe",
+      "name": "chanxi_0.3.1_x64-setup.exe",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.1/chanxi_0.3.1_x64-setup.exe",
       "mirrors": [
-        "https://github.com/traddo/mychan/releases/download/v0.3.0/chanxi_0.3.0_x64-setup.exe"
+        "https://github.com/traddo/mychan/releases/download/v0.3.1/chanxi_0.3.1_x64-setup.exe"
       ],
-      "size": 5919093,
-      "sha256": "ffb84bfa06ff7c50e114c20e1a9932b66199f46c7a48d3978d1580722ee4816f"
+      "size": 5917921,
+      "sha256": "c928760869f1fee68e44f62c46afc49b9ec2e685f5f530b7315be802ce86936b"
     }
   }
 }
