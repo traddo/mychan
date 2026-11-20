@@ -53,10 +53,8 @@
     },
     "darwin-x86_64": {
       "name": "chanxi_0.3.3_x64.dmg",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg",
-      "mirrors": [
-        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg"
-      ],
+      "url": "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg",
+      "mirrors": [],
       "size": 9620904,
       "sha256": "f2c01b64b1776a1c356e108b7d96906c9381f1400da7a06a6b771e8a2b314a9e"
     },
