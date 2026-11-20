@@ -16,7 +16,7 @@
 
 ## 下载
 
-版本：v0.2.12｜发布日期：2026-11-07
+版本：v0.3.3｜发布日期：2026-11-20
 
 到 [Releases](../../releases) 取最新版。**装上就能用**，分解引擎随包附带，
 不用另外配置任何东西。
@@ -24,13 +24,13 @@
 > 点下表里的链接直接下载。（[Releases](../../releases) 页面里那一堆 `.zip` 和 `.sig`
 > 是应用自动更新用的，不用管。）
 
-| 你的系统 | 点击下载 |
+| 你的系统 | 点击下载（v0.3.3） |
 |---|---|
-| Windows 10 及以上 | [chanxi_0.3.2_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe) |
-| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.2.12_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_aarch64.dmg) |
-| macOS（更早的 Intel Mac） | [chanxi_0.2.12_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_x64.dmg) |
-| Linux（Ubuntu / Debian 等） | [chanxi_0.2.12_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.deb) |
-| Linux（其他发行版，免安装） | [chanxi_0.2.12_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.2.12/chanxi_0.2.12_amd64.AppImage) |
+| Windows 10 及以上 | [chanxi_0.3.3_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe) |
+| macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.3.3_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) |
+| macOS（更早的 Intel Mac） | [chanxi_0.3.3_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) |
+| Linux（Ubuntu / Debian 等） | [chanxi_0.3.3_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) |
+| Linux（其他发行版，免安装） | [chanxi_0.3.3_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage) |
 
 国内用左边的链接（Gitee）更快；打不开时用右边的 GitHub 镜像。
 
