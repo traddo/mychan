@@ -28,7 +28,7 @@
 |---|---|
 | Windows 10 及以上 | [chanxi_0.3.3_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe) |
 | macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.3.3_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) |
-| macOS（更早的 Intel Mac） | [chanxi_0.3.3_x64.dmg](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg)（GitHub） |
+| macOS（更早的 Intel Mac） | [chanxi_0.3.3_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) |
 | Linux（Ubuntu / Debian 等） | [chanxi_0.3.3_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) |
 | Linux（其他发行版，免安装） | [chanxi_0.3.3_amd64.AppImage](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage) |
 
