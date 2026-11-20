@@ -1,27 +1,91 @@
 {
-  "version": "0.3.2",
-  "notes": "修复导入较长的 1 分钟数据（如数年的上证指数）后打开提示数据文件损坏的问题",
-  "pub_date": "2026-11-15T15:06:47Z",
+  "version": "0.3.3",
+  "notes": "打开、刷新和拖动更快；股票池可拖动排序、改为文字入口；刷新时显示转圈提示；邀请页新增链接用法说明；macOS 不再弹出通达信体检；修复快速切换品种串图、笔记反复请求等问题",
+  "pub_date": "2026-11-20T03:38:56Z",
   "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllzZTlmVkJIWC9JSDVxL3pEVG5QZUVUZVUrcGtXaXRYeXdUTzVlUnVrcGl1MFpXYmg2cTlxNWt0Z0JXQ2pmT25wM1NIVlJYNld0OXp6dDVMcmhSSXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODc5CWZpbGU6Y2hhbnhpXzAuMy4zX2FhcmNoNjQuYXBwLnRhci5negp1cDA3SXB1bTVkNVBWSGZxUWwrYjNiWThlMVRGZE0zbC9qQzV2V0NwNFVETzBYak5HWE1GRnN3SnhPZGhwOS9LSXk0ZkxhaEFZT2dEbk1veVBtcG5DQT09Cg==",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbllzZTlmVkJIWC9JSDVxL3pEVG5QZUVUZVUrcGtXaXRYeXdUTzVlUnVrcGl1MFpXYmg2cTlxNWt0Z0JXQ2pmT25wM1NIVlJYNld0OXp6dDVMcmhSSXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODc5CWZpbGU6Y2hhbnhpXzAuMy4zX2FhcmNoNjQuYXBwLnRhci5negp1cDA3SXB1bTVkNVBWSGZxUWwrYjNiWThlMVRGZE0zbC9qQzV2V0NwNFVETzBYak5HWE1GRnN3SnhPZGhwOS9LSXk0ZkxhaEFZT2dEbk1veVBtcG5DQT09Cg==",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbldsaU9kc0VsYUtHT0xlY2I2V3VtYjJjNFhnZXdFdnIwNjQwTmtrR3JZUTQ2UmtHTlVHWVlRTnJ4eVI2akdXOEN0YnQ0YmgwRkNjYVRpeld4MEsvcXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODgwCWZpbGU6Y2hhbnhpXzAuMy4zX3g2NC5hcHAudGFyLmd6CjBiWlMrYmJyeEdNcTJjNHArcmk4dzRTVVMxa3JPdXlDUFhtL2FkYVZkcTFYcmcvQnlKQld1dFJVSnhhRGhjUTJRczFiOTFtR0thYXdwekczdm5OdENRPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbldsaU9kc0VsYUtHT0xlY2I2V3VtYjJjNFhnZXdFdnIwNjQwTmtrR3JZUTQ2UmtHTlVHWVlRTnJ4eVI2akdXOEN0YnQ0YmgwRkNjYVRpeld4MEsvcXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODgwCWZpbGU6Y2hhbnhpXzAuMy4zX3g2NC5hcHAudGFyLmd6CjBiWlMrYmJyeEdNcTJjNHArcmk4dzRTVVMxa3JPdXlDUFhtL2FkYVZkcTFYcmcvQnlKQld1dFJVSnhhRGhjUTJRczFiOTFtR0thYXdwekczdm5OdENRPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblFyM3RqeEhpQXNYcVNsejFFcWNyNlNjUTgvYnhWd0ZvbDhta1gwWWZjdlBFeFFta2dsbUxubXMxOTBmTW40eWZnSXdlRFVmcG8rV0NPZmlrNmpGeEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQyNDAwCWZpbGU6Y2hhbnhpXzAuMy4zX2FtZDY0LkFwcEltYWdlCnVYNCszNk43c01wTmJZck5CdjV0M3NxS2F5Si9lODFFNWQyd3pHTnRSRHNiV1NmQ3NTZkhmdVFQZjQ1UFBQNGE1Q3F0SW0vVEZKejF2aXRuaVdpOUFnPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage"
+    },
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblFyM3RqeEhpQXNYcVNsejFFcWNyNlNjUTgvYnhWd0ZvbDhta1gwWWZjdlBFeFFta2dsbUxubXMxOTBmTW40eWZnSXdlRFVmcG8rV0NPZmlrNmpGeEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQyNDAwCWZpbGU6Y2hhbnhpXzAuMy4zX2FtZDY0LkFwcEltYWdlCnVYNCszNk43c01wTmJZck5CdjV0M3NxS2F5Si9lODFFNWQyd3pHTnRSRHNiV1NmQ3NTZkhmdVFQZjQ1UFBQNGE1Q3F0SW0vVEZKejF2aXRuaVdpOUFnPT0K",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmNlQlNtREZ6dXhSYjg2WjR6UXBuRkI5clpvOEtzckhYb25RdDhoN1VCZmNQMk5YbTBXd2tkUjlNM2V4SGJObk4yV0hyRHFoUEFWeUZnUm43TFlzcUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQyNDAxCWZpbGU6Y2hhbnhpXzAuMy4zX2FtZDY0LmRlYgoxaEFKTUZydXQzVHJpenhHQ1VYdVNpcnJDcjFZSkNZUVB1ZCtONVRheGNpTk4yQzFEMjFBNkxIanZrQXNVYUZGTWVSSDg2U1NUNHB2NzZaSDl1Y1VCZz09Cg==",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb"
+    },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJRaGxFYit2SUticGhNL1IxR25ybEpNWW9MUVBlN0ZhbnJwWkxhR1B1R1NTbS9ZZkczQnBVd3orT3d4c0hVOElGUW1JczBIRkVNZEVtOVc1aS9mV1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzU1MTgwCWZpbGU6Y2hhbnhpXzAuMy4yX3g2NC1zZXR1cC5leGUKdmp3S2kwdzR1NnRqb1k2TFpQNWlPbU5xUnVVbGNTVmRjT3pXR1JGc0F1K3BocmNCK1NzenhXNHVnbGFnK090SGpFbVZFMTdSUmdoejdtSlNjYTNsREE9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblYwbHNVZUdwYU9LOGhkK3FweEhRMUN0Q2JHK3VSR2hHVGpQNFBVZ2VIajJRazlidldSc0NNeGdLRlJ3U1E2ZlFmQXhnSHNmSmc3QmZMNTQ5NWhuaFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODgwCWZpbGU6Y2hhbnhpXzAuMy4zX3g2NC1zZXR1cC5leGUKTEhpQ0VoRmpjVXBkT2ZTNUY1cU9mRkZJQlNXeC8vTFlxNVJGeXRXWXc5WE5qNndZQTBHRklOK2xmMTFHakN1MXdEdGQvMmh0R2VSdWFrWVNPd1VNQWc9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LbmJRaGxFYit2SUticGhNL1IxR25ybEpNWW9MUVBlN0ZhbnJwWkxhR1B1R1NTbS9ZZkczQnBVd3orT3d4c0hVOElGUW1JczBIRkVNZEVtOVc1aS9mV1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzU1MTgwCWZpbGU6Y2hhbnhpXzAuMy4yX3g2NC1zZXR1cC5leGUKdmp3S2kwdzR1NnRqb1k2TFpQNWlPbU5xUnVVbGNTVmRjT3pXR1JGc0F1K3BocmNCK1NzenhXNHVnbGFnK090SGpFbVZFMTdSUmdoejdtSlNjYTNsREE9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblYwbHNVZUdwYU9LOGhkK3FweEhRMUN0Q2JHK3VSR2hHVGpQNFBVZ2VIajJRazlidldSc0NNeGdLRlJ3U1E2ZlFmQXhnSHNmSmc3QmZMNTQ5NWhuaFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ1ODgwCWZpbGU6Y2hhbnhpXzAuMy4zX3g2NC1zZXR1cC5leGUKTEhpQ0VoRmpjVXBkT2ZTNUY1cU9mRkZJQlNXeC8vTFlxNVJGeXRXWXc5WE5qNndZQTBHRklOK2xmMTFHakN1MXdEdGQvMmh0R2VSdWFrWVNPd1VNQWc9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe"
     }
   },
   "mandatory": false,
   "installers": {
-    "windows-x86_64": {
-      "name": "chanxi_0.3.2_x64-setup.exe",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe",
+    "darwin-aarch64": {
+      "name": "chanxi_0.3.3_aarch64.dmg",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg",
       "mirrors": [
-        "https://github.com/traddo/mychan/releases/download/v0.3.2/chanxi_0.3.2_x64-setup.exe"
+        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg"
       ],
-      "size": 5900390,
-      "sha256": "b747cfa2a88220e8dc01da8d1d58776e7f912fc729d8e6dd7edba14a478eaff4"
+      "size": 9021920,
+      "sha256": "0b6c45e3a30af40f5a61f2d3cbc5e4c1c2c4f190d077a0ec6938e51be6d3f79b"
+    },
+    "darwin-x86_64": {
+      "name": "chanxi_0.3.3_x64.dmg",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg",
+      "mirrors": [
+        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg"
+      ],
+      "size": 9620904,
+      "sha256": "f2c01b64b1776a1c356e108b7d96906c9381f1400da7a06a6b771e8a2b314a9e"
+    },
+    "linux-x86_64-appimage": {
+      "name": "chanxi_0.3.3_amd64.AppImage",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage",
+      "mirrors": [
+        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.AppImage"
+      ],
+      "size": 86374904,
+      "sha256": "c6783a4fac5e243e9616ac38ad4c0f1019ecb12936740a1ad521f2e00eacbe1e"
+    },
+    "linux-x86_64-deb": {
+      "name": "chanxi_0.3.3_amd64.deb",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb",
+      "mirrors": [
+        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb"
+      ],
+      "size": 7907518,
+      "sha256": "dd1915cf29c3483947c93bd0edce81e230390762e0fdbf281e130f5dab7f8765"
+    },
+    "windows-x86_64": {
+      "name": "chanxi_0.3.3_x64-setup.exe",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe",
+      "mirrors": [
+        "https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64-setup.exe"
+      ],
+      "size": 6126282,
+      "sha256": "74850244ae92510659f1fb07d14c3cdb5bf39be350b54880b5700ae3513a45b7"
     }
   }
 }
