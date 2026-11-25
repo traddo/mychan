@@ -16,7 +16,7 @@
 
 ## 下载
 
-版本：Windows v0.3.4（2026-11-24）｜macOS、Linux v0.3.3（2026-11-20）
+版本：Windows v0.3.6（2026-11-25）｜macOS、Linux v0.3.3（2026-11-20）
 
 到 [Releases](../../releases) 取最新版。**装上就能用**，分解引擎随包附带，
 不用另外配置任何东西。
@@ -26,7 +26,7 @@
 
 | 你的系统 | 点击下载 |
 |---|---|
-| Windows 10 及以上 | [chanxi_0.3.4_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe) |
+| Windows 10 及以上 | [chanxi_0.3.6_x64-setup.exe](https://gitee.com/doo8w/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe) |
 | macOS（2020 年后的 Mac，M1/M2/M3…） | [chanxi_0.3.3_aarch64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_aarch64.dmg) |
 | macOS（更早的 Intel Mac） | [chanxi_0.3.3_x64.dmg](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_x64.dmg) |
 | Linux（Ubuntu / Debian 等） | [chanxi_0.3.3_amd64.deb](https://gitee.com/doo8w/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) ｜ [GitHub 镜像](https://github.com/traddo/mychan/releases/download/v0.3.3/chanxi_0.3.3_amd64.deb) |
