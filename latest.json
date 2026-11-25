@@ -1,27 +1,27 @@
 {
-  "version": "0.3.4",
-  "notes": "Windows 版新增通达信插件：在通达信里切换股票自动出缠论分解，盘中按 1 分钟线实时更新；帮助改为网页版；颜色配置人人可用",
-  "pub_date": "2026-11-24T11:09:02Z",
+  "version": "0.3.6",
+  "notes": "默认进今日分解、图表更新到 0.6.10、通达信换股更快、指数开盘价修正",
+  "pub_date": "2026-11-25T08:12:05Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblF4a3kzZ095NDVNKzgxbktTUncwdEdsdmwyWSthT1JKaVhuWmtZdnRJVjk4U3pTQnlKY2NlM0xYY2hpdU5oNFQ2c1ZiS2NCbWU3cFc2OGs5RnVHNndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE2MDI5CWZpbGU6Y2hhbnhpXzAuMy40X3g2NC1zZXR1cC5leGUKZ2t3OTVQRWMxNmt2WklJd0Z6ZEk1Wm5HSWR5bi9LK2FqSFNIZU1DWk9CWXpxSi9NVXBNK3RldmtvQ2NlNnRmeXlEUlUycmdVbzA0WlBoTHVlaGhRQ3c9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblM1T1AyWG5xdFNoUU5yZnVxcmlHcTUwMy9vV1RGeU15ZjFobWNiWEpibnJqejhSZE4rQ1EyRnJIY2JIekxoUmlNOHBVRUNCaitkdElKMHg5dU83N2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTk0MzE1CWZpbGU6Y2hhbnhpXzAuMy42X3g2NC1zZXR1cC5leGUKSWdxNTdMU1Q4QWNHcldSQkQyUjdHRldMWmF0QjVtMU5HVVJOaWxjTFRiNlZkZHJ1Mk9FL3BCaVlYbHhQS0RCeFNHOHlzb3AvV3QxcittVlJhRXNWRGc9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblF4a3kzZ095NDVNKzgxbktTUncwdEdsdmwyWSthT1JKaVhuWmtZdnRJVjk4U3pTQnlKY2NlM0xYY2hpdU5oNFQ2c1ZiS2NCbWU3cFc2OGs5RnVHNndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE2MDI5CWZpbGU6Y2hhbnhpXzAuMy40X3g2NC1zZXR1cC5leGUKZ2t3OTVQRWMxNmt2WklJd0Z6ZEk1Wm5HSWR5bi9LK2FqSFNIZU1DWk9CWXpxSi9NVXBNK3RldmtvQ2NlNnRmeXlEUlUycmdVbzA0WlBoTHVlaGhRQ3c9PQo=",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNG5vQThyam5LblM1T1AyWG5xdFNoUU5yZnVxcmlHcTUwMy9vV1RGeU15ZjFobWNiWEpibnJqejhSZE4rQ1EyRnJIY2JIekxoUmlNOHBVRUNCaitkdElKMHg5dU83N2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTk0MzE1CWZpbGU6Y2hhbnhpXzAuMy42X3g2NC1zZXR1cC5leGUKSWdxNTdMU1Q4QWNHcldSQkQyUjdHRldMWmF0QjVtMU5HVVJOaWxjTFRiNlZkZHJ1Mk9FL3BCaVlYbHhQS0RCeFNHOHlzb3AvV3QxcittVlJhRXNWRGc9PQo=",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe"
     }
   },
   "mandatory": false,
   "installers": {
     "windows-x86_64": {
-      "name": "chanxi_0.3.4_x64-setup.exe",
-      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe",
+      "name": "chanxi_0.3.6_x64-setup.exe",
+      "url": "https://gitee.com/doo8w/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe",
       "mirrors": [
-        "https://github.com/traddo/mychan/releases/download/v0.3.4/chanxi_0.3.4_x64-setup.exe"
+        "https://github.com/traddo/mychan/releases/download/v0.3.6/chanxi_0.3.6_x64-setup.exe"
       ],
-      "size": 6235418,
-      "sha256": "4de534a43b166db3dd43b7d1dfebc6dcdf0420f326d41c0226d418ddc64eaab2"
+      "size": 6234028,
+      "sha256": "2ed3486fb61819b3e6f4d2702cb626da4385b92b4b7b46351001d46adadd6032"
     }
   }
 }
